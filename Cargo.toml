@@ -1,0 +1,10 @@
+[package]
+name = "cxx_bindgen-build"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+syn = { version = "2.0.89", features = ["full", "extra-traits"] }
+build-print = "0.1.1"
+regex = "1.11.1"
+proc-macro-error = "1.0"
