@@ -1,5 +1,3 @@
-#![feature(let_chains)]
-
 mod cxx_bindgen_meta;
 mod cargo_expand;
 mod binding_state;
